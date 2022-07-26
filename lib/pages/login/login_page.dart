@@ -57,7 +57,7 @@ class LoginPage extends StatelessWidget {
                   const Padding(
                     padding: EdgeInsets.symmetric(vertical: 16),
                     child: Text(
-                      "Your Hourney\nin your hands",
+                      "Your Journey\nin your hands",
                       style: TextStyle(
                         // shadows: [
                         //   Shadow(

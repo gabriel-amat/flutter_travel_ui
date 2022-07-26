@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_travel_app/pages/location/widgets/app_bar.dart';
+import 'package:flutter_travel_app/pages/location/widgets/people_cards.dart';
 
 class DetailgPage extends StatelessWidget {
   const DetailgPage({Key? key}) : super(key: key);
@@ -57,10 +58,10 @@ class DetailgPage extends StatelessWidget {
                         ),
                       ),
                       Row(
-                        children: const [
-                          Icon(Icons.star, color: Colors.yellow),
-                          SizedBox(width: 5),
-                          Text(
+                        children: [
+                          Icon(Icons.star, color: Colors.yellow[700]),
+                          const SizedBox(width: 5),
+                          const Text(
                             "5.0",
                             style: TextStyle(
                               color: Colors.white,
@@ -93,6 +94,8 @@ class DetailgPage extends StatelessWidget {
                       ),
                     ],
                   ),
+                  const SizedBox(height: 16),
+                  const PeopleCards(),
                   const SizedBox(height: 16),
                   const Text(
                     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the.",
