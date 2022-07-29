@@ -1,6 +1,6 @@
 # Travel UI
 
-<h2>Layout inspired by</h2>
+<h2>Design by</h2>
 https://dribbble.com/shots/18888896-Trevlink-Travelling-Mobile-App
 
 <h2>Prints</h2>
